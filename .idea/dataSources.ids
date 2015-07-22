@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source source="LOCAL" name="Rails webultim-ua: development" uuid="50f1c42d-69a6-4019-9916-f2fb1e9121cf">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails webultim-ua: production" uuid="5157f6e6-c12e-4fcc-8f10-4f67d1ccf150">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails webultim-ua: test" uuid="c9183af8-cbbf-43db-8a95-b7c3e0bfa756">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails webultim-ua: default" uuid="8b66976e-a169-4767-86ba-54b02c387169">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+</component>

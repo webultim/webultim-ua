@@ -1,0 +1,224 @@
+<!-------------------------
+    MAIN SLIDER
+--------------------------->
+<header id="myCarousel" class="carousel slide">
+
+  <!-- Wrapper for Slides -->
+  <div class="carousel-inner">
+    <div class="item active left">
+      <a href="#modal-dressroom" data-toggle="modal">
+        <!-- Set the first background image using inline CSS below. -->
+        <div class="fill" style="background-image:url('http://placehold.it/1900x1080&amp;text=Slide One');"></div>
+        <div class="carousel-caption">
+          <h2>Caption 1</h2>
+        </div>
+      </a>
+    </div>
+    <div class="item next left">
+      <a href="#modal-dressroom" data-toggle="modal">
+        <!-- Set the second background image using inline CSS below. -->
+        <div class="fill" style="background-image:url('http://placehold.it/1900x1080&amp;text=Slide Two');"></div>
+        <div class="carousel-caption">
+          <h2>Caption 2</h2>
+        </div>
+      </a>
+    </div>
+    <div class="item">
+      <a href="#modal-dressroom" data-toggle="modal">
+        <!-- Set the third background image using inline CSS below. -->
+        <div class="fill" style="background-image:url('http://placehold.it/1900x1080&amp;text=Slide Three');"></div>
+        <div class="carousel-caption">
+          <h2>Caption 3</h2>
+        </div>
+      </a>
+    </div>
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <span class="glyphicon glyphicon-menu-left"></span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <span class="glyphicon glyphicon-menu-right"></span>
+  </a>
+
+</header>
+
+<!-------------------------
+    BLOCKS
+--------------------------->
+<div class="container-fluid blocks-mainpage">
+  <div class="row">
+
+    <a href="#">
+      <div class="col-sm-6 block-portfolio block-hover">
+        <span>
+          <div class="blocks-title">
+            <h2>портфолио</h2>
+          </div>
+        </span>
+      </div>
+    </a>
+
+    <a href="#">
+      <div class="col-sm-6 block-contact block-hover">
+        <span>
+          <div class="blocks-title">
+            <h2>обратная связь</h2>
+          </div>
+        </span>
+      </div>
+    </a>
+
+  </div>
+</div>
+
+<!-------------------------
+    ABOUT US SECTION
+--------------------------->
+<section class="section-grey">
+  <div class="container">
+    <div class="row text-green">
+      <div class="col-sm-12 text-center">
+        <h2 class="section-heading">О нас</h2>
+        <h3 class="section-subheading">Что мы предлагаем</h3>
+        <hr class="hr-green">
+      </div>
+    </div>
+    <div class="row text-center">
+      <div class="col-sm-4 text-green">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x color-green"></i>
+                        <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
+                    </span>
+        <h4 class="service-heading">Адаптивный Дизайн</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+      </div>
+      <div class="col-sm-4 text-orange">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x color-orange"></i>
+                        <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
+                    </span>
+        <h4 class="service-heading">Интернет Коммерция</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+      </div>
+      <div class="col-sm-4 text-green">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x color-green"></i>
+                        <i class="fa fa-line-chart fa-stack-1x fa-inverse"></i>
+                    </span>
+        <h4 class="service-heading">Современные Технологии</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-------------------------
+    LAYOUT SECTION
+--------------------------->
+<section class="section-white">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6 text-center">
+        <h2 class="section-heading text-orange">Создание макетов</h2>
+        <hr class="hr-orange">
+        <p class="section-subheading text-green">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+      </div>
+      <div class="col-sm-6">
+        <img class="img-responsive img-centered" src="<%= image_path('home/homepage-layouts.png') %>" alt="Макет">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-------------------------
+    FRONTEND SECTION
+--------------------------->
+<section class="section-grey">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-8"></div>
+      <div class="col-sm-4">
+        <div class="frontend-blocks">
+          <img class="img-responsive img-centered" src="<%= image_path('home/frontend-pc.png') %>">
+          <h4 class="text-center text-orange">ПК</h4>
+        </div>
+        <div class="frontend-blocks">
+          <img class="img-responsive img-centered" src="<%= image_path('home/frontend-tablet.png') %>">
+          <h4 class="text-center text-green">Планшеты</h4>
+        </div>
+        <div class="frontend-blocks">
+          <img class="img-responsive img-centered" src="<%= image_path('home/frontend-mobile.png') %>">
+          <h4 class="text-center text-green">Мобильные<br>устройства</h4>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-8"></div>
+      <div class="col-sm-4">
+        <hr class="hr-green">
+        <h1 class="text-center text-green">Frontend</h1>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-------------------------
+    BACKEND SECTION
+--------------------------->
+<section class="section-green">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-8">
+
+      </div>
+      <div class="col-sm-4 text-center text-white">
+        <h1>Backend</h1>
+        <hr class="hr-white">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-------------------------
+    SEO SECTION
+--------------------------->
+<section class="section-white">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 text-orange">
+        <h1 class="text-center">Search Engine Optimization</h1>
+        <hr class="hr-orange">
+      </div>
+    </div>
+    <div class="row text-green box">
+      <div class="col-sm-12">
+        <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+      </div>
+    </div>
+    <div class="row box">
+      <div class="col-sm-4 text-green">
+        <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+      </div>
+      <div class="col-sm-8">
+        <img class="img-responsive img-centered" src="<%= image_path('home/seographic.png') %>">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-------------------------
+    CONTACT SECTION
+--------------------------->
+<section class="section-grey">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 text-center">
+        <h2 class="text-center text-green">Напишите нам и мы обязательно с вами свяжемся</h2>
+        <button class="btn btn-order">Заказать сайт в один клик</button>
+      </div>
+    </div>
+  </div>
+</section>

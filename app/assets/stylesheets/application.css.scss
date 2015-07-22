@@ -1,0 +1,98 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+@font-face {
+  font-weight: normal;
+  font-style: normal;
+  font-family: 'Zrnic_Cyr';
+  src:font_url('Zrnic_Cyr_Normal.ttf');
+}
+
+html, body {
+  height: 100%;
+  font-family: Zrnic_Cyr !important;
+  font-size: 16px !important;
+}
+
+section, footer {
+  padding: 30px 0;
+}
+
+footer {
+  height: 200px;
+  background-image: image-url('footer-bg.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.section-grey{
+  background-color: rgba(227, 226, 226, 1);
+}
+
+.section-white {
+  background-color: #ffffff;
+}
+
+.section-green{
+  background-color: rgba(88, 120, 131, 1);
+}
+
+.img-centered {
+  margin: 0 auto;
+}
+
+.background-green {
+  background-color: #5D827B;
+}
+
+.background-orange {
+  background-color: #FD8E74;
+}
+
+.text-green {
+  color: #5D827B;
+}
+
+.text-orange {
+  color: #FD8E74;
+}
+
+.text-white {
+  color: #ffffff;
+}
+
+.hr-green {
+  border-top: 2px solid #5D827B !important;
+}
+
+.hr-orange {
+  border-top: 2px solid #FD8E74 !important;
+}
+
+.hr-white {
+  border-top: 2px solid #ffffff !important;
+}
+
+.hr-green, .hr-orange, .hr-white {
+  max-width: 400px;
+}
+
+.box {
+  margin: 20px 0;
+}

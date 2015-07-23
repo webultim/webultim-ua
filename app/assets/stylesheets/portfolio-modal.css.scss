@@ -1,0 +1,65 @@
+.modal {
+  padding-left: 0!important;
+
+  .modal-content {
+    border-radius: 0!important;
+    padding: 100px 0 0;
+    min-height: 100%;
+    border: 0;
+    background-clip: border-box;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+
+    /**
+    * CLOSE
+    */
+    .close-modal {
+      position: absolute;
+      top: 25px;
+      right: 25px;
+      width: 75px;
+      height: 75px;
+      background-color: transparent;
+      cursor: pointer;
+      display: block;
+
+      .lr {
+        z-index: 1051;
+        width: 1px;
+        height: 75px;
+        margin-left: 35px;
+        background-color: #222;
+        -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        transform: rotate(45deg);
+      }
+
+      .lr .rl {
+        z-index: 1052;
+        width: 1px;
+        height: 75px;
+        background-color: #222;
+        -webkit-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        transform: rotate(90deg);
+      }
+    }
+
+    .close-modal:hover .lr, .close-modal:hover .lr .rl{
+      background-color: #999;
+    }
+
+    .modal-image {
+      margin-bottom: 20px;
+    }
+
+    .modal-link {
+      color: #FD8E74 !important;
+    }
+
+    .modal-link:hover {
+      color: #C6482A !important;
+    }
+  }
+
+}

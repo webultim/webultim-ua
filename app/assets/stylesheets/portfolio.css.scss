@@ -1,0 +1,16 @@
+// Place all the styles related to the portfolio controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+.portfolio > div {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.portfolio-caption {
+  margin: 0 auto;
+  padding: 25px;
+  text-align: center;
+  background-color: #fff;
+}

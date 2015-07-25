@@ -1,0 +1,73 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.block-portfolio {
+  height: 300px;
+  background-color: #5D827B;
+  background-image: image_url('home/portfolio-main.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.block-contact {
+  height: 300px;
+  background-color: #FD8E74;
+  background-image: image_url('home/contact-main.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.block-hover {
+  padding: 0!important;
+}
+
+.block-hover span {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(74, 77, 94, 0.4);
+  position: absolute;
+  display: none;
+  z-index: 100;
+}
+
+.blocks-title {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  bottom: 0!important;
+  color: #3c4a50;
+  background-color: #fff;
+  padding: 1em 2em;
+}
+
+.blocks-title h2 {
+  font-weight: 300;
+  text-align: right;
+  text-transform: uppercase;
+  margin: 0!important;
+}
+
+@media (max-width:600px){
+  .block-portfolio, .block-contact {
+    background-size: 450px 187px;
+  }
+}
+
+@media (max-width:1500px) and (min-width:767px){
+  .block-portfolio, .block-contact {
+    background-size: 450px 187px;
+  }
+}
+
+.frontend-blocks {
+  margin: 30px 0;
+}
+
+.btn-order {
+  margin: 20px 0 !important;
+  background-color: #FD8E74;
+  font-size: 2em !important;
+  font-weight: 0 !important;
+  color: #ffffff;
+}

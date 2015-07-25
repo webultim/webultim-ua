@@ -87,28 +87,37 @@
     </div>
     <div class="row text-center">
       <div class="col-sm-4 text-green">
+            <a href="#">
                     <span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x color-green"></i>
                         <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
                     </span>
+
         <h4 class="service-heading">Адаптивный Дизайн</h4>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+            </a>
       </div>
       <div class="col-sm-4 text-orange">
+            <a href="#">
                     <span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x color-orange"></i>
                         <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
                     </span>
+
         <h4 class="service-heading">Интернет Коммерция</h4>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+            </a>
       </div>
       <div class="col-sm-4 text-green">
+            <a href="#">
                     <span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x color-green"></i>
                         <i class="fa fa-line-chart fa-stack-1x fa-inverse"></i>
                     </span>
+
         <h4 class="service-heading">Современные Технологии</h4>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+            </a>
       </div>
     </div>
   </div>
@@ -126,7 +135,7 @@
         <p class="section-subheading text-green">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
       </div>
       <div class="col-sm-6">
-        <img class="img-responsive img-centered" src="<%= image_path('home/homepage-layouts.png') %>" alt="Макет">
+        <img class="img-responsive img-centered" src="<%= image_path('home/maket.jpg') %>" alt="Макет">
       </div>
     </div>
   </div>
@@ -138,27 +147,30 @@
 <section class="section-grey">
   <div class="container">
     <div class="row">
-      <div class="col-sm-8"></div>
-      <div class="col-sm-4">
-        <div class="frontend-blocks">
-          <img class="img-responsive img-centered" src="<%= image_path('home/frontend-pc.png') %>">
-          <h4 class="text-center text-orange">ПК</h4>
-        </div>
-        <div class="frontend-blocks">
-          <img class="img-responsive img-centered" src="<%= image_path('home/frontend-tablet.png') %>">
-          <h4 class="text-center text-green">Планшеты</h4>
-        </div>
-        <div class="frontend-blocks">
-          <img class="img-responsive img-centered" src="<%= image_path('home/frontend-mobile.png') %>">
-          <h4 class="text-center text-green">Мобильные<br>устройства</h4>
-        </div>
+      <div class="col-sm-8">
+        <img src="<%= image_path('home/front-right.png') %>">
       </div>
-    </div>
-    <div class="row">
-      <div class="col-sm-8"></div>
       <div class="col-sm-4">
-        <hr class="hr-green">
         <h1 class="text-center text-green">Frontend</h1>
+        <hr class="hr-green">
+        <div class="frontend-blocks">
+          <a href="#">
+              <img class="img-responsive img-centered" src="<%= image_path('home/frontend-pc.png') %>">
+              <h4 class="text-center text-orange">ПК</h4>
+          </a>
+        </div>
+        <div class="frontend-blocks">
+          <a href="#">
+              <img class="img-responsive img-centered" src="<%= image_path('home/frontend-tablet.png') %>">
+              <h4 class="text-center text-green">Планшеты</h4>
+          </a>
+        </div>
+        <div class="frontend-blocks">
+          <a href="#">
+              <img class="img-responsive img-centered" src="<%= image_path('home/frontend-mobile.png') %>">
+              <h4 class="text-center text-green">Мобильные<br>устройства</h4>
+          </a>
+        </div>
       </div>
     </div>
   </div>
@@ -170,13 +182,14 @@
 <section class="section-green">
   <div class="container">
     <div class="row">
-      <div class="col-sm-8">
 
-      </div>
-      <div class="col-sm-4 text-center text-white">
+      <div class="col-sm-4 col-md-4 text-center text-white">
         <h1>Backend</h1>
         <hr class="hr-white">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+      </div>
+      <div class="col-sm-8 col-md-8">
+        <img src="<%= image_path('home/developing-apps.jpg') %>" width="700px">
       </div>
     </div>
   </div>

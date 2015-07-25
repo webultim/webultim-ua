@@ -6,13 +6,16 @@
   </button>
 </div>
 
-<nav class="navbar-collapse collapse sidebar-navbar-collapse">
+<nav class="navbar-collapse collapse sidebar-navbar-collapse navbar-fixed-top">
   <div class="container">
     <ul class="nav nav-justified">
-      <li><%= link_to 'Главная', home_path %></li>
+      <a class="navbar-brand" href="#">
+        <img src="<%= image_path('home/LOGO2.png') %>" width="130px">
+      </a>
+      <li><%= link_to 'Контакты' %></li>
       <li><%= link_to 'О нас'  %></li>
       <li><%= link_to 'Портфолио', portfolio_path  %></li>
-      <li><%= link_to 'Обратная связь', contact_path  %></li>
+      <li><%= link_to 'Обратная связь'  %></li>
     </ul>
   </div>
 </nav>

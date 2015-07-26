@@ -17,9 +17,56 @@ ul.nav li a:hover {
 }
 
 .navbar-header {
-  background-color: #5D827B!important;
+  background-color: #5D827B !important;
+}
+
+.navbar-brand img {
+  width: 120px;
+}
+
+.navbar-collapsed-brand {
+  display: none;
+  float: left;
+  margin: 5px 20px
 }
 
 .icon-bar {
   background-color: #ffffff;
+}
+
+/*
+ * MEDIA <1200px
+ */
+
+@media (max-width:1200px) {
+
+  nav {
+    font-size: 1.6em;
+  }
+
+  .navbar-brand img {
+    width: 90px;
+  }
+
+}
+
+/*
+ * MEDIA <767 px
+ */
+
+@media (max-width: 767px) {
+
+  nav {
+    position: static !important;
+    opacity: 1;
+  }
+
+  .navbar-brand {
+    display: none;
+  }
+
+  .navbar-collapsed-brand {
+    display: inline-block;
+  }
+
 }

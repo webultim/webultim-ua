@@ -106,3 +106,20 @@ footer {
 .box {
   margin: 20px 0;
 }
+
+.container-top {
+  top: 50px;
+  position: relative;
+}
+
+/*
+ * MEDIA < 767px
+ */
+
+@media (max-width: 767px) {
+
+  .container-top {
+    top: 0px;
+  }
+
+}

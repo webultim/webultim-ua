@@ -1,6 +1,7 @@
 <!-- MODAL -->
 <%= render 'layouts/portfolio_modal' %>
 
+<!--
 <div class="container" style="top:50px; position: relative;">
   <div class="row">
     <div class="col-sm-12 text-center">
@@ -31,6 +32,47 @@
         <h3><a href="#modal-dressroom" data-toggle="modal">DressRoom</a></h3>
         <p class="text-muted">Интернет-магазин одежды</p>
       </div>
+    </div>
+  </div>
+</div>
+-->
+
+<div class="container" style="top:50px; position: relative;">
+  <div class="row">
+    <div class="col-sm-12 text-center">
+      <h2 class="section-heading">Портфолио</h2>
+      <h3 class="section-subheading text-muted">Оцените качество разработанных нами сайтов.</h3>
+      <hr>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-6">
+      <ul class="grid cs-style-3">
+        <li>
+          <figure>
+            <img src="<%= image_path('portfolio/dressroom-preview.png') %>" alt="dressroom-preview">
+            <figcaption>
+              <h3>Dressroom</h3>
+              <span>Интернет-магазин одежды</span>
+              <a href="#modal-dressroom" data-toggle="modal">Подробнее</a>
+            </figcaption>
+          </figure>
+        </li>
+      </ul>
+    </div>
+    <div class="col-sm-6">
+      <ul class="grid cs-style-3">
+        <li>
+          <figure>
+            <img src="<%= image_path('portfolio/dressroom-preview.png') %>" alt="dressroom-preview">
+            <figcaption>
+              <h3>Dressroom</h3>
+              <span>Интернет-магазин одежды</span>
+              <a href="#modal-dressroom" data-toggle="modal">Подробнее</a>
+            </figcaption>
+          </figure>
+        </li>
+      </ul>
     </div>
   </div>
 </div>

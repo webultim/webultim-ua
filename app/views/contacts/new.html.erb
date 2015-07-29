@@ -6,6 +6,7 @@
       <hr>
     </div>
   </div>
+  <!--
   <div class="row">
     <div class="col-sm-12">
       <form name="sentMessage" id="contactForm" novalidate="">
@@ -39,4 +40,35 @@
       </form>
     </div>
   </div>
+  -->
+
+  <div class="row">
+    <div class="col-sm-12">
+
+      <%= simple_form_for @contact, :html => {:id => 'contactForm' }, :defaults => { :input_html => { :class => "form-control" } } do |f| %>
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="form-group">
+                <%= f.input :name, :required => true, :placeholder => 'Ваше имя *', :error_html => { 'class' => 'alert alert-danger contact-form-alert'} %>
+              </div>
+              <div class="form-group">
+                <%= f.input :email, :required => true, :placeholder => 'Ваш email *', :error_html => { 'class' => 'alert alert-danger contact-form-alert'} %>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="form-group">
+                <%= f.input :message, :as => :text, :required => true, :placeholder => 'Ваше сообщение *', :error_html => { 'class' => 'alert alert-danger contact-form-alert'} %>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-12 text-center">
+                <%= f.button :submit, 'Отправить', :class=> "btn btn-contact" %>
+              </div>
+            </div>
+          </div>
+      <% end %>
+
+    </div>
+  </div>
+
 </div>

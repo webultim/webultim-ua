@@ -6,7 +6,10 @@ Rails.application.routes.draw do
 
   get 'portfolio' => 'portfolio#index'
 
-  get 'contact' => 'contact#index'
+  get 'contact' => 'contacts#new'
+  resources 'contacts', only: [:new, :create]
+
+  get 'service' => 'service#index'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

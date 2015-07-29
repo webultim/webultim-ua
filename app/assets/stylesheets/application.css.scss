@@ -75,6 +75,10 @@ footer {
   background-color: #FD8E74;
 }
 
+.background-white {
+  background-color: #ffffff;
+}
+
 .text-green {
   color: #5D827B;
 }
@@ -108,8 +112,11 @@ footer {
 }
 
 .container-top {
-  top: 50px;
-  position: relative;
+  margin-top: 57px;
+}
+
+.container-fluid {
+  padding: 0 !important;
 }
 
 /*
@@ -119,7 +126,7 @@ footer {
 @media (max-width: 767px) {
 
   .container-top {
-    top: 0px;
+    margin-top: 0px;
   }
 
 }

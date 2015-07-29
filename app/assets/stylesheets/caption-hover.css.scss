@@ -92,10 +92,10 @@
 }
 
 /*
- * MEDIA 768 - 991, <450px
+ * MEDIA <450px
  */
 
-@media (max-width: 991px) and (min-width: 768px), (max-width: 450px){
+@media (max-width: 450px){
 
   .cs-style-3 figcaption {
     height: 50px;

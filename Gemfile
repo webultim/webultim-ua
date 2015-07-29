@@ -52,3 +52,7 @@ gem 'bootstrap-sass'
 
 #Font Awesome
 gem 'font-awesome-sass'
+
+#Mail
+gem 'mail_form'
+gem 'simple_form'

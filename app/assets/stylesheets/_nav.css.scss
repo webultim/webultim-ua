@@ -1,5 +1,6 @@
 nav {
   background: #5D827B;
+  height: 57px;
   font-size: 2em;
   opacity:0.95;
 }
@@ -9,7 +10,7 @@ ul.nav a:hover, ul.nav a:focus {
 }
 
 ul.nav li a {
-  color: #FD8E74;
+  color: rgba(238, 223, 143, 1) !important;
 }
 
 ul.nav li a:hover {
@@ -57,6 +58,7 @@ ul.nav li a:hover {
 @media (max-width: 767px) {
 
   nav {
+    height: auto;
     position: static !important;
     opacity: 1;
   }

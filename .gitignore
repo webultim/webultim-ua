@@ -18,3 +18,5 @@
 
 #RubyMine project
 /.idea
+
+/.env

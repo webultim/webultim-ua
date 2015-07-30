@@ -48,8 +48,8 @@ Rails.application.configure do
       port: 587,
       authentication: "plain",
       enable_starttls_auto: true,
-      user_name: 'artemgergetc@gmail.com',
-      password: 'Artenka_799_5465'
+      user_name: 'webultim@gmail.com',
+      password: 'cloud9webultim'
   }
 
 end

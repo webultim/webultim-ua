@@ -1,13 +1,70 @@
+<!--
+HORIZONTAL-MENU
+-->
+
+<header class="cd-header">
+  <div id="cd-logo"><a href="#0"><img src="<%= image_path('home/LOGO2.png') %>" width="130px"></a></div>
+  <nav class="cd-primary-nav">
+    <ul>
+      <!-- inser more links here -->
+      <li><a href="#0"><%= link_to 'УСЛУГИ', service_path  %></a></li>
+      <li><a href="#0"><%= link_to 'ПОРТФОЛИО', portfolio_path  %></a></li>
+      <li><a href="#0"><%= link_to 'ОБРАТНАЯ СВЯЗЬ', contact_path  %></a></li>
+    </ul>
+  </nav> <!-- cd-primary-nav -->
+</header>
+<section id="cd-intro">
+  <div id="cd-intro-tagline">
+    <h1>Создание  WEB-сайта под ключ</h1>
+    <a href="/fixed-horizontal-menu-to-site/" class="cd-btn">Оформить заявку</a>
+  </div> <!-- #cd-intro-tagline -->
+</section> <!-- #cd-intro -->
+
+<div class="cd-secondary-nav">
+  <a href="#0" class="cd-secondary-nav-trigger">Menu<span></span></a> <!-- button visible on small devices -->
+  <nav>
+    <ul>
+      <li>
+        <a href="#cd-placeholder-1">
+          <b>Создание макетов</b>
+          <span></span><!-- icon -->
+        </a>
+      </li>
+      <li>
+        <a href="#cd-placeholder-2">
+          <b>Верстка</b>
+          <span></span><!-- icon -->
+        </a>
+      </li>
+      <li>
+        <a href="#cd-placeholder-3">
+          <b>Backend</b>
+          <span></span><!-- icon -->
+        </a>
+      </li>
+      <li>
+        <a href="#cd-placeholder-4">
+          <b>SEO</b>
+          <span></span><!-- icon -->
+        </a>
+      </li>
+      <li>
+        <a href="#cd-placeholder-5">
+          <b>Копирайт</b>
+          <span></span><!-- icon -->
+        </a>
+      </li>
+    </ul>
+  </nav>
+</div>
 <!-------------------------
     MAIN SLIDER
---------------------------->
-<header id="myCarousel" class="carousel slide">
 
-  <!-- Wrapper for Slides -->
+
   <div class="carousel-inner">
     <div class="item active left">
       <a href="#modal-dressroom" data-toggle="modal">
-        <!-- Set the first background image using inline CSS below. -->
+
         <div class="fill" style="background-image:url('http://placehold.it/1900x1080&amp;text=Slide One');"></div>
         <div class="carousel-caption">
           <h2>Caption 1</h2>
@@ -16,7 +73,7 @@
     </div>
     <div class="item next left">
       <a href="#modal-dressroom" data-toggle="modal">
-        <!-- Set the second background image using inline CSS below. -->
+
         <div class="fill" style="background-image:url('http://placehold.it/1900x1080&amp;text=Slide Two');"></div>
         <div class="carousel-caption">
           <h2>Caption 2</h2>
@@ -25,7 +82,7 @@
     </div>
     <div class="item">
       <a href="#modal-dressroom" data-toggle="modal">
-        <!-- Set the third background image using inline CSS below. -->
+
         <div class="fill" style="background-image:url('http://placehold.it/1900x1080&amp;text=Slide Three');"></div>
         <div class="carousel-caption">
           <h2>Caption 3</h2>
@@ -34,7 +91,7 @@
     </div>
   </div>
 
-  <!-- Controls -->
+
   <a class="left carousel-control" href="#myCarousel" data-slide="prev">
     <span class="glyphicon glyphicon-menu-left"></span>
   </a>
@@ -46,7 +103,7 @@
 
 <!-------------------------
     BLOCKS
---------------------------->
+
 <div class="container-fluid blocks-mainpage">
   <div class="row">
 
@@ -147,12 +204,12 @@
   <div class="container">
     <div class="row">
       <div class="col-sm-8">
-        <img src="<%= image_path('home/front-right.png') %>" class="img-responsive">
+        <img src="<%= image_path('home/responsive.svg') %>" class="img-responsive">
       </div>
       <div class="col-sm-4">
         <h1 class="text-center text-green">Frontend</h1>
         <hr class="hr-green">
-        <div class="frontend-blocks">
+        <!--<div class="frontend-blocks">
           <a href="#">
               <img class="img-responsive img-centered" src="<%= image_path('home/frontend-pc.png') %>">
               <h4 class="text-center text-orange">ПК</h4>
@@ -169,7 +226,7 @@
               <img class="img-responsive img-centered" src="<%= image_path('home/frontend-mobile.png') %>">
               <h4 class="text-center text-green">Мобильные<br>устройства</h4>
           </a>
-        </div>
+        </div>-->
       </div>
     </div>
   </div>

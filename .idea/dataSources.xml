@@ -4,35 +4,26 @@
     <data-source source="LOCAL" name="Rails webultim-ua: development" uuid="50f1c42d-69a6-4019-9916-f2fb1e9121cf">
       <driver-ref>sqlite.xerial</driver-ref>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql:webultim-ua</jdbc-url>
-      <user-name>postgres</user-name>
-      <user-password>df9ddf93df93df9fdf9edf9cdf9fdfcb</user-password>
+      <jdbc-url>jdbc:sqlite:C:\Users\ToS\RubymineProjects\rails_projects\webultim-ua\db\development.sqlite3</jdbc-url>
       <libraries />
     </data-source>
     <data-source source="LOCAL" name="Rails webultim-ua: production" uuid="5157f6e6-c12e-4fcc-8f10-4f67d1ccf150">
       <driver-ref>postgresql</driver-ref>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql:webultim-ua</jdbc-url>
-      <user-name>postgres</user-name>
-      <user-password>df9ddf93df93df9fdf9edf9cdf9fdfcb</user-password>
       <libraries />
     </data-source>
     <data-source source="LOCAL" name="Rails webultim-ua: test" uuid="c9183af8-cbbf-43db-8a95-b7c3e0bfa756">
       <driver-ref>postgresql</driver-ref>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql:webultim-ua</jdbc-url>
-      <user-name>postgres</user-name>
-      <user-password>df9ddf93df93df9fdf9edf9cdf9fdfcb</user-password>
       <libraries />
     </data-source>
     <data-source source="LOCAL" name="Rails webultim-ua: default" uuid="8b66976e-a169-4767-86ba-54b02c387169">
       <driver-ref>postgresql</driver-ref>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql:webultim-ua</jdbc-url>
-      <user-name>postgres</user-name>
-      <user-password>df9ddf93df93df9fdf9edf9cdf9fdfcb</user-password>
       <libraries />
     </data-source>
   </component>
 </project>
-

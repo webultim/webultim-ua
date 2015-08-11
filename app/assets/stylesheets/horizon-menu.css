@@ -186,7 +186,7 @@ Navigation
     -ms-transform: translateY(0);
     -o-transform: translateY(0);
     transform: translateY(0);
-    line-height: 70px;
+    line-height: 57px;
   }
   .cd-primary-nav ul.is-visible {
     -webkit-transform: translateY(0);
@@ -330,6 +330,7 @@ Secondary Fixed Navigation
   transition: transform 0.3s, visibility 0s 0.3s;
 }
 .cd-secondary-nav ul.is-visible {
+  margin-bottom: 0 !important;
   visibility: visible;
   -webkit-transform: scale(1);
   -moz-transform: scale(1);
@@ -352,7 +353,7 @@ Secondary Fixed Navigation
 @media only screen and (min-width: 1170px) {
   .cd-secondary-nav {
     z-index: 1;
-    height: 100px;
+    height: 70px;
     background-color: rgba(3, 13, 24, 0.96);
     -webkit-transition: height 0.3s;
     -moz-transition: height 0.3s;
@@ -383,7 +384,7 @@ Secondary Fixed Navigation
     position: relative;
     text-align: center;
     display: block;
-    padding: 58px 40px 0 40px;
+    padding: 20px 40px 0 40px;
     border-bottom: none;
     -webkit-transition: padding 0.2s;
     -moz-transition: padding 0.2s;
@@ -581,4 +582,18 @@ Placeholder Sections
     font-size: 20px;
     font-size: 1.25rem;
   }
+}
+
+.cd-primary-nav ul li i, .cd-primary-nav ul li p {
+    color: #18435b;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    padding: 0 10px;
+}
+
+@media only screen and (max-width: 768px) {
+    .cd-header {
+        display: none;
+    }
 }

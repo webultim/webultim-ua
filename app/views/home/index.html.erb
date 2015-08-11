@@ -4,59 +4,37 @@ HORIZONTAL-MENU
 
 <header class="cd-header">
   <div id="cd-logo"><a href="#0"><img src="<%= image_path('home/LOGO2.png') %>" width="130px"></a></div>
+  <!--
   <nav class="cd-primary-nav">
     <ul>
-      <!-- inser more links here -->
       <li><a href="#0"><%= link_to 'УСЛУГИ', service_path  %></a></li>
       <li><a href="#0"><%= link_to 'ПОРТФОЛИО', portfolio_path  %></a></li>
       <li><a href="#0"><%= link_to 'ОБРАТНАЯ СВЯЗЬ', contact_path  %></a></li>
     </ul>
-  </nav> <!-- cd-primary-nav -->
+  </nav>
+  -->
+  <nav class="cd-primary-nav">
+    <ul>
+      <li>
+        <i class="fa fa-tablet fa-2x"></i>
+        <p>8 050 555 55 55</p>
+      </li>
+      <li>
+        <i class="fa fa-envelope fa-2x"></i>
+        <p>webultim@gmail.com</p>
+      </li>
+    </ul>
+  </nav>
 </header>
 <section id="cd-intro">
   <div id="cd-intro-tagline">
     <h1>Создание  WEB-сайта под ключ</h1>
-    <a href="/fixed-horizontal-menu-to-site/" class="cd-btn">Оформить заявку</a>
+    <a href="#" class="cd-btn">Оформить заявку</a>
   </div> <!-- #cd-intro-tagline -->
 </section> <!-- #cd-intro -->
 
-<div class="cd-secondary-nav">
-  <a href="#0" class="cd-secondary-nav-trigger">Menu<span></span></a> <!-- button visible on small devices -->
-  <nav>
-    <ul>
-      <li>
-        <a href="#cd-placeholder-1">
-          <b>Создание макетов</b>
-          <span></span><!-- icon -->
-        </a>
-      </li>
-      <li>
-        <a href="#cd-placeholder-2">
-          <b>Верстка</b>
-          <span></span><!-- icon -->
-        </a>
-      </li>
-      <li>
-        <a href="#cd-placeholder-3">
-          <b>Backend</b>
-          <span></span><!-- icon -->
-        </a>
-      </li>
-      <li>
-        <a href="#cd-placeholder-4">
-          <b>SEO</b>
-          <span></span><!-- icon -->
-        </a>
-      </li>
-      <li>
-        <a href="#cd-placeholder-5">
-          <b>Копирайт</b>
-          <span></span><!-- icon -->
-        </a>
-      </li>
-    </ul>
-  </nav>
-</div>
+<%= render 'layouts/nav' %>
+
 <!-------------------------
     MAIN SLIDER
 

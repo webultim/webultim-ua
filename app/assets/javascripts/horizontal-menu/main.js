@@ -59,10 +59,10 @@ jQuery(document).ready(function($){
 	secondaryNav.find('ul a').on('click', function(event){
         event.preventDefault();
         var target= $(this.hash);
-        $('body,html').animate({
+        /*$('body,html').animate({
         	'scrollTop': target.offset().top - secondaryNav.height() + 1
         	}, 400
-        ); 
+        ); */
         //on mobile - close secondary navigation
         $('.cd-secondary-nav-trigger').removeClass('menu-is-open');
         secondaryNav.find('ul').removeClass('is-visible');
